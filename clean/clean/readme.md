@@ -16,11 +16,12 @@ $ ls
 ```
 
 ### Project Directory before maven clean after package
+```
 .
 ├── target                  # Build Time Generated Folder
 ├── pom.xml                 # Project Object Model
 └── readme.md
-
+```
 
 ```terminal
 $ mvn clean
@@ -31,6 +32,8 @@ $ mvn clean
 $ ls
 ```
 ### Project Directory after maven clean
+```
 .
 ├── pom.xml                 # Project Object Model
 └── readme.md
+```
